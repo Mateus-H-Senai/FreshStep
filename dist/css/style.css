@@ -1474,7 +1474,6 @@ label {
 .feature-extended-image img,
 .feature-extended-image svg {
   width: 100%;
-  max-width: 296px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -1525,10 +1524,6 @@ label {
   .feature-extended .feature-extended-image img,
   .feature-extended .feature-extended-image svg {
     width: auto;
-  }
-  .feature-extended .feature-extended-image img.device-mockup,
-  .feature-extended .feature-extended-image svg.device-mockup {
-    max-width: 296px;
   }
   .feature-extended:nth-child(even) {
     justify-content: flex-start;
