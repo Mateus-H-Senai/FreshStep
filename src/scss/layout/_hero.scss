@@ -59,8 +59,6 @@
 @include media( '>medium' ) {
 
     .hero {
-        padding-top: 160px;
-		padding-bottom: 128px;
 
 		&::before,
 		&::after {
