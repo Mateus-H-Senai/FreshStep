@@ -1423,6 +1423,12 @@ label {
   position: relative;
 }
 
+@media screen and (min-height: 1080px) {
+  .mockup-container{
+    transform: translateY(32px);
+  }  
+}
+
 .mockup-bg {
   pointer-events: none;
 }
@@ -1445,12 +1451,7 @@ label {
   z-index: 1;
 }
 
-@media screen and (min-height: 1080px) {
-  .mockup-container{
-    transform: translateY(calc(5vh + 8em));
 
-  }  
-}
 
 /*--------------------------------------------------------------
 # Features extended
