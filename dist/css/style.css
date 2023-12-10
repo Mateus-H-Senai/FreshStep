@@ -628,6 +628,7 @@ label {
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
+  
 }
 @media (min-width: 481px) {
   .container,
@@ -643,6 +644,9 @@ label {
 
 .container-sm {
   max-width: 848px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .container .container-sm {
@@ -1262,6 +1266,8 @@ label {
   padding-top: 128px;
   min-height: 95vh;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
 }
 .hero .hero-bg {
   position: absolute;
@@ -1304,6 +1310,10 @@ label {
 .hero-inner {
   position: relative;
   z-index: 1;
+  display: flex;
+  gap: 88px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hero-copy {
@@ -1433,6 +1443,13 @@ label {
   height: auto;
   margin: 0 auto;
   z-index: 1;
+}
+
+@media screen and (min-height: 1080px) {
+  .mockup-container{
+    transform: translateY(calc(5vh + 8em));
+
+  }  
 }
 
 /*--------------------------------------------------------------
